@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: small;
 }
 
 /* ar indica colori da usare nei quadrati aspect ratio */
@@ -30,6 +33,10 @@ body {
     min-width: 1280px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 80%;
 }
@@ -44,7 +51,6 @@ body {
 
 .flex {
     display: flex;
-    flex-direction: row;
 }
 
 .row {
@@ -112,7 +118,42 @@ body {
 /* #endregion common */
 
 /* #region header */
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
 
+header div.flex:first-of-type {
+    align-items: center;
+}
+
+header div.flex:last-of-type {
+    align-items: center;
+}
+
+.left-menu {
+    a {
+        padding-left: 1rem;
+    }
+}
+
+.right-menu {
+    a {
+        padding-right: 1rem;
+    }
+}
+
+.blue-button {
+    background-color: var(--blue-button);
+    color: var(--font-light);
+    padding: .5rem 1rem;
+    border: none;
+}
+
+.hover2:hover {
+
+}
 /* #endregion header */
 
 /* #region main */
