@@ -5,6 +5,53 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 1280px;
+}
+
+.container {
+    width: 80%;
+}
+
+.container-small {
+    width: 60%;
+}
+
+.container-100 {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 -1rem;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* CONTROLLA QUI, POTREBBE ESSERE AL CONTRARIO */
+    margin: 0 -1rem;
+}
+
+[class^="col-"] {
+    padding: 1rem;
+}
+
+.col-4 {
+    width: calc((100% / 12)* 4);
+}
+
+.col-8 {
+    width: calc((100% / 12)* 8);
+}
+
+.col-12 {
+    width: 100%;
+}
+
 /* #endregion common */
 
 /* #region header */
