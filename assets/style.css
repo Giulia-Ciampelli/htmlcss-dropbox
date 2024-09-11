@@ -1,4 +1,6 @@
 /* #region common */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -79,6 +81,34 @@ body {
 .col-12 {
     width: 100%;
 }
+
+/* #region debug */
+.debug [class^="col-"] {
+    min-height: 400px;
+    border: 1px dashed;
+    background-color: aqua;
+}
+
+.debug header {
+    border: 1px dashed;
+}
+.debug section {
+    border: 1px dashed;
+    margin: 0 1rem;
+}
+
+.debug .container,
+.debug .container-small,
+.debug .container-100 {
+    min-height: 400px;
+    border: 1px dashed;
+}
+
+.debug footer {
+    border: 1px dashed;
+}
+
+/* #endregion debug */
 
 /* #endregion common */
 
