@@ -39,14 +39,17 @@ a {
 
 .container {
     width: 80%;
+    margin: auto;
 }
 
 .container-small {
     width: 60%;
+    margin: auto;
 }
 
 .container-100 {
     width: 100%;
+    margin: auto;
 }
 
 .flex {
@@ -106,7 +109,6 @@ a {
 }
 .debug section {
     border: 1px dashed;
-    margin: 0 1rem;
 }
 
 .debug .container,
@@ -172,6 +174,10 @@ h1 {
     font-weight: 900;
     /* CONTROLLA QUI */
     font-size: 100%;
+}
+
+.jumbo .container .row .col-4 {
+    
 }
 
 div.col-8 {
