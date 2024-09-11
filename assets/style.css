@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+/* ar indica colori da usare nei quadrati aspect ratio */
+:root {
+    --blue-button: #0161ff;
+    --ar-designit-background: #a2d39b;
+    --ar-designit-border: #cfe6cb;
+    --ar-asu-background: #61082b;
+    --ar-uf-background: #0093ce;
+    --ar-topps-background: #ff1c1c;
+    --designit-big-background: #f5f5f5;
+    --ar-wbr-background: #d5001f;
+    --ar-hearst-background: #b4d0e7;
+    --ar-lonely-p-background: #0d2481;
+    --ar-clear-ch-background: #ffd830;
+    --freetrial-background: #b4d0e7;
+    --freetrial-font: #610d27;
+    --footer: #000000;
+    --font-light: #ffffff;
+}
+
 body {
     min-width: 1280px;
 }
