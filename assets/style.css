@@ -23,7 +23,7 @@
     --ar-hearst-background: #b4d0e7;
     --ar-lonely-p-background: #0d2481;
     --ar-clear-ch-background: #ffd830;
-    --freetrial-background: #b4d0e7;
+    --jumbo-freetrial-background: #b4d0e7;
     --freetrial-font: #610d27;
     --footer: #000000;
     --font-light: #ffffff;
@@ -88,6 +88,13 @@ a {
     width: 100%;
 }
 
+.blue-button {
+    background-color: var(--blue-button);
+    color: var(--font-light);
+    padding: .5rem 1rem;
+    border: none;
+}
+
 /* #region debug */
 .debug [class^="col-"] {
     min-height: 400px;
@@ -113,6 +120,14 @@ a {
     border: 1px dashed;
 }
 
+.hover1:hover {
+    border-bottom: 2px solid black;
+}
+
+.hover2:hover {
+
+}
+
 /* #endregion debug */
 
 /* #endregion common */
@@ -134,31 +149,37 @@ header div.flex:last-of-type {
 
 .left-menu {
     a {
-        padding-left: 1rem;
+        padding: .5rem;
     }
 }
 
 .right-menu {
     a {
-        padding-right: 1rem;
+        padding: .5rem;
     }
-}
-
-.blue-button {
-    background-color: var(--blue-button);
-    color: var(--font-light);
-    padding: .5rem 1rem;
-    border: none;
-}
-
-.hover2:hover {
-
 }
 /* #endregion header */
 
 /* #region main */
 
 /* #region jumbotron */
+.jumbo {
+    background-color: var(--jumbo-freetrial-background);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    /* CONTROLLA QUI */
+    font-size: 100%;
+}
+
+div.col-8 {
+    img {
+        /* CONTROLLA DA CAMBIARE */
+        width: 100%;
+    }
+}
 
 /* #endregion jumbotron */
 
