@@ -86,7 +86,6 @@ body {
 .debug [class^="col-"] {
     min-height: 400px;
     border: 1px dashed;
-    background-color: aqua;
 }
 
 .debug header {
