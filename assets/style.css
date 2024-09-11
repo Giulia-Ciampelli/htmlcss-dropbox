@@ -172,12 +172,21 @@ header div.flex:last-of-type {
 h1 {
     text-align: center;
     font-weight: 900;
-    /* CONTROLLA QUI */
-    font-size: 100%;
+    font-size:xxx-large;
 }
 
 .jumbo .container .row .col-4 {
-    
+    p {
+        margin: 1rem 0;
+    }
+
+    button {
+        margin: 1rem 0;
+    }
+
+    img {
+        margin: 1rem 0;
+    }
 }
 
 div.col-8 {
