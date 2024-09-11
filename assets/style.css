@@ -37,6 +37,12 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size:xxx-large;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -169,12 +175,6 @@ header div.flex:last-of-type {
     background-color: var(--jumbo-freetrial-background);
 }
 
-h1 {
-    text-align: center;
-    font-weight: 900;
-    font-size:xxx-large;
-}
-
 .jumbo .container .row .col-4 {
     p {
         margin: 1rem 0;
@@ -200,6 +200,13 @@ div.col-8 {
 /* #endregion jumbotron */
 
 /* #region business plan */
+.plans .container-small {
+    h1 {
+        margin: 4rem 0;
+        font-size: xx-large;
+        text-align: left;
+    }
+}
 
 /* #endregion business plan */
 
