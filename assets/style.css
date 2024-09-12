@@ -86,7 +86,7 @@ h1 {
 }
 
 .col-5 {
-    width: calc((100% / 12)* 5);
+    width: calc(100% / 5);
 }
 
 .col-8 {
