@@ -396,40 +396,30 @@ p.strong.big {
                 align-items: center;
                 aspect-ratio: 1;
                 width: 50%;
+
+                img {
+                    width: 50%;
+                    filter: invert(100%);
+                }
             }
 
             div:nth-child(1) {
                 background-color: var(--ar-designit-background);
                 border: 10px solid var(--ar-designit-border);
-
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
+
             div:nth-child(2) {
                 background-color: var(--ar-asu-background);
 
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
+
             div:nth-child(3) {
                 background-color: var(--ar-uf-background);
 
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
+
             div:nth-child(4) {
                 background-color: var(--ar-topps-background);
-
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
         }
 
@@ -458,41 +448,32 @@ p.strong.big {
             padding: 0;
 
             div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 aspect-ratio: 1;
                 width: 50%;
+
+                img {
+                    width: 50%;
+                    filter: invert(100%);
+                }
             }
             
             div:nth-child(1) {
                 background-color: var(--ar-wbr-background);
-
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
+
             div:nth-child(2) {
                 background-color: var(--ar-hearst-background);
-
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
+
             div:nth-child(3) {
                 background-color: var(--ar-lonely-p-background);
-
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
+
             div:nth-child(4) {
                 background-color: var(--ar-clear-ch-background);
-                
-                svg {
-                    width: 50%;
-                    fill: white;
-                }
             }
         }
     }
