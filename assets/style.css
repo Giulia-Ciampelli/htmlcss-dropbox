@@ -581,7 +581,29 @@ p.strong.big {
 /* #endregion main */
 
 /* #region footer */
-.footer {
+footer {
     margin-top: 2rem;
+    background-color: var(--footer);
+    color: white;
+
+    .col-5 {
+
+        .min-title {
+            padding: 1rem 0;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            line-height: 2rem;
+        }
+    }
+
+    .language {
+        color: lightgray;
+        padding: 3rem 0;
+        border-top: 1px solid lightgray;
+    }
 }
 /* #endregion footer */
