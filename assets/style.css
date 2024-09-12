@@ -43,6 +43,11 @@ h1 {
     font-size: xxx-large;
 }
 
+h4 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -106,6 +111,10 @@ h1 {
 
 .strong {
     font-weight: 700;
+}
+
+.big {
+    font-size: large;
 }
 
 .hover1:hover {
@@ -210,7 +219,7 @@ div.col-8 {
 }
 
 .plans .container-small {
-    h1 {
+    h4 {
         margin: 2rem 0;
         font-size: xx-large;
         text-align: left;
@@ -295,11 +304,33 @@ div.col-8 {
     }
 }
 
+p.strong.big {
+    padding-top: 2rem;
+}
+
 /* #endregion business plan */
 
 /* #region affiliati */
-.partners {
-    margin: 2rem 0;
+.partners .col-8 {
+
+    img {
+        width: 100%;
+        position: static;
+    }
+}
+
+.partners .col-4 {
+    
+    p {
+        padding: 2rem 0;
+    }
+}
+
+.light-button {
+    background-color: white;
+    color: gray;
+    padding: .5rem 1rem;
+    border: 1px solid gray;
 }
 
 /* #endregion affiliati */
