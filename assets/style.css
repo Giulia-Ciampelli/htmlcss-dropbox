@@ -206,6 +206,21 @@ div.col-8 {
         font-size: xx-large;
         text-align: left;
     }
+
+    .col-4 {
+        display: flex;
+        /* CONTROLLA elimina flex in prima colonna? */
+    }
+}
+
+.plans article {
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.plans .col-12 {
+    border: 1px solid black;
+    padding: 2rem;
 }
 
 /* #endregion business plan */
