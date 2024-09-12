@@ -33,14 +33,14 @@ body {
     min-width: 1280px;
 }
 
-a {
+a.unstyled {
     text-decoration: none;
 }
 
 h1 {
     text-align: center;
     font-weight: 900;
-    font-size:xxx-large;
+    font-size: xxx-large;
 }
 
 .container {
@@ -104,13 +104,15 @@ h1 {
     border: none;
 }
 
+.strong {
+    font-weight: 700;
+}
+
 .hover1:hover {
     border-bottom: 2px solid black;
 }
 
-.hover2:hover {
-
-}
+.hover2:hover {}
 
 /* #region debug */
 .debug [class^="col-"] {
@@ -121,6 +123,7 @@ h1 {
 .debug header {
     border: 1px dashed;
 }
+
 .debug section {
     border: 1px dashed;
 }
@@ -166,6 +169,7 @@ header div.flex:last-of-type {
         padding: .5rem;
     }
 }
+
 /* #endregion header */
 
 /* #region main */
@@ -202,7 +206,7 @@ div.col-8 {
 /* #region business plan */
 .plans .container-small {
     h1 {
-        margin: 4rem 0;
+        margin: 2rem 0;
         font-size: xx-large;
         text-align: left;
     }
@@ -216,11 +220,52 @@ div.col-8 {
 .plans article {
     border: 1px solid black;
     padding: 2rem;
+
+    div {
+        padding: 2rem 0;
+    }
+
+    div:first-child {
+        border-bottom: 1px solid black;
+    }
+
+    ul {
+        padding: 2rem 0;
+        list-style: none;
+
+        li {
+            line-height: 1.5rem;
+        }
+    }
+
+    ul:first-child {
+        li {
+            list-style: none;
+        }
+    }
+
+    ul:last-child {
+        li {
+            list-style: none;
+        }
+    }
+
+    .blue-button {
+        margin: 2rem 0;
+    }
+
+    .check {
+        width: 10px;
+    }
 }
 
 .plans .col-12 {
     border: 1px solid black;
     padding: 2rem;
+    
+    div {
+        border-bottom: 1px solid black;
+    }
 }
 
 /* #endregion business plan */
