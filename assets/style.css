@@ -138,35 +138,6 @@ h2 {
     display: none;
 }
 
-/* #region debug */
-.debug [class^="col-"] {
-    min-height: 400px;
-    border: 1px dashed;
-}
-
-.debug header {
-    border: 1px dashed;
-}
-
-.debug section {
-    border: 1px dashed;
-}
-
-.debug .container,
-.debug .container-small,
-.debug .container-100 {
-    min-height: 400px;
-    border: 1px dashed;
-}
-
-.debug footer {
-    border: 1px dashed;
-}
-
-/* #endregion debug */
-
-/* #endregion common */
-
 /* #region header */
 header {
     justify-content: space-between;
