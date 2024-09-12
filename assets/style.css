@@ -565,8 +565,9 @@ p.strong.big {
         text-align: left;
     }
 
-    div {
-        padding: 2rem 0;
+    hr {
+        border: 1px solid lightgrey;
+        margin: 3rem 0 2rem;
     }
 }
 
