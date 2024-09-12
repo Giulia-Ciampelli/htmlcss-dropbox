@@ -383,6 +383,119 @@ p.strong.big {
 /* #region partner */
 .container-100 {
     margin: 2rem 0;
+
+    .row {
+        .col-4:nth-child(1) {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                aspect-ratio: 1;
+                width: 50%;
+            }
+
+            div:nth-child(1) {
+                background-color: var(--ar-designit-background);
+                border: 10px solid var(--ar-designit-border);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+            div:nth-child(2) {
+                background-color: var(--ar-asu-background);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+            div:nth-child(3) {
+                background-color: var(--ar-uf-background);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+            div:nth-child(4) {
+                background-color: var(--ar-topps-background);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+        }
+
+        .col-4:nth-child(2) {
+            background-color: var(--designit-big-background);
+            padding: 2.5rem;
+
+            img {
+                width: 50%;
+            }
+
+            hr {
+                margin: 4rem 0;
+                border: 1px solid lightgray;
+                width: 20%;
+            }
+
+            p {
+                padding-bottom: 3rem;
+            }
+        }
+
+        .col-4:nth-child(3) {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+
+            div {
+                aspect-ratio: 1;
+                width: 50%;
+            }
+            
+            div:nth-child(1) {
+                background-color: var(--ar-wbr-background);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+            div:nth-child(2) {
+                background-color: var(--ar-hearst-background);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+            div:nth-child(3) {
+                background-color: var(--ar-lonely-p-background);
+
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+            div:nth-child(4) {
+                background-color: var(--ar-clear-ch-background);
+                
+                svg {
+                    width: 50%;
+                    fill: white;
+                }
+            }
+        }
+    }
 }
 
 /* #endregion partner */
