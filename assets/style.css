@@ -35,6 +35,7 @@ body {
 
 a.unstyled {
     text-decoration: none;
+    color: #000000;
 }
 
 h1 {
@@ -181,6 +182,14 @@ header div.flex:last-of-type {
     a {
         padding: .5rem;
     }
+}
+
+#move1 {
+    margin-right: 1rem;
+}
+
+#move2 {
+    margin-left: 1rem;
 }
 
 /* #endregion header */
@@ -382,7 +391,7 @@ p.strong.big {
 
 /* #region partner */
 .container-100 {
-    margin: 2rem 0;
+    margin-top: 2rem;
 
     .row {
         .col-4:nth-child(1) {
@@ -483,7 +492,34 @@ p.strong.big {
 
 /* #region prova gratuita */
 .freetrial {
-    margin: 2rem 0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--jumbo-freetrial-background);
+    color: var(--freetrial-font);
+
+    .row {
+        margin: 0;
+
+        .col-8 {
+            display: flex;
+            align-items: center;
+        }
+
+        .col-4 {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    h2 {
+        margin: 2rem 0;
+        font-size: xx-large;
+        text-align: left;
+    }
+
+    button {
+        margin-bottom: 4rem;
+    }
 }
 
 /* #endregion prova gratuita */
