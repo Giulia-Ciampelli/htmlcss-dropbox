@@ -177,6 +177,7 @@ header div.flex:last-of-type {
 /* #region jumbotron */
 .jumbo {
     background-color: var(--jumbo-freetrial-background);
+    margin: 0 0 2rem;
 }
 
 .jumbo .container .row .col-4 {
@@ -204,11 +205,19 @@ div.col-8 {
 /* #endregion jumbotron */
 
 /* #region business plan */
+.plans {
+    margin: 2rem 0;
+}
+
 .plans .container-small {
     h1 {
         margin: 2rem 0;
         font-size: xx-large;
         text-align: left;
+    }
+
+    .choice {
+        padding: 3rem 0;
     }
 
     .col-4 {
@@ -218,15 +227,18 @@ div.col-8 {
 }
 
 .plans article {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 2rem;
 
-    div {
-        padding: 2rem 0;
+    div:first-child {
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-top: -1rem;
     }
 
-    div:first-child {
-        border-bottom: 1px solid black;
+    span, a {
+        padding: 2rem 0;
     }
 
     ul {
@@ -236,6 +248,10 @@ div.col-8 {
         li {
             line-height: 1.5rem;
         }
+    }
+
+    h4 {
+        padding-top: 2rem;
     }
 
     ul:first-child {
@@ -260,42 +276,73 @@ div.col-8 {
 }
 
 .plans .col-12 {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 2rem;
     
     div {
-        border-bottom: 1px solid black;
+        padding: 2rem 0;
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+    }
+
+    div:first-child {
+        padding-bottom: 1rem;
+        margin-top: -1rem;
+    }
+
+    p {
+        padding-bottom: 2rem;
     }
 }
 
 /* #endregion business plan */
 
 /* #region affiliati */
+.partners {
+    margin: 2rem 0;
+}
 
 /* #endregion affiliati */
 
 /* #region operazioni */
+.operations {
+    margin: 2rem 0;
+}
 
 /* #endregion operazioni */
 
 /* #region clienti */
+.clients {
+    margin: 2rem 0;
+}
 
 /* #endregion clienti */
 
 /* #region partner */
+.container-100 {
+    margin: 2rem 0;
+}
 
 /* #endregion partner */
 
 /* #region prova gratuita */
+.freetrial {
+    margin: 2rem 0;
+}
 
 /* #endregion prova gratuita */
 
 /* #region faq */
+.faq {
+    margin: 2rem 0;
+}
 
 /* #endregion faq */
 
 /* #endregion main */
 
 /* #region footer */
-
+.footer {
+    margin-top: 2rem;
+}
 /* #endregion footer */
