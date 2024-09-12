@@ -50,7 +50,7 @@ h2 {
 
 .min-title {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .container {
@@ -126,7 +126,17 @@ h2 {
     border-bottom: 2px solid black;
 }
 
-.hover2:hover {}
+.hover2:hover {
+    filter: brightness(150%);
+}
+
+.hover3:hover {
+    display: block;
+}
+
+.hover4:hover {
+    display: none;
+}
 
 /* #region debug */
 .debug [class^="col-"] {
@@ -244,7 +254,10 @@ div.col-8 {
 
     .col-4 {
         display: flex;
-        /* CONTROLLA elimina flex in prima colonna? */
+
+        .min-title, .strong {
+            padding: 1rem 0;
+        }
     }
 }
 
@@ -261,6 +274,12 @@ div.col-8 {
 
     span, a {
         padding: 2rem 0;
+    }
+
+    hr {
+        border: 1px solid lightgrey;
+        margin: 3rem 0 2rem;
+        width: 30%;
     }
 
     ul {
@@ -315,6 +334,10 @@ div.col-8 {
     p {
         padding-bottom: 2rem;
     }
+
+    .min-title {
+        padding: 2rem 0;
+    }
 }
 
 p.strong.big {
@@ -367,6 +390,10 @@ p.strong.big {
     img {
         width: 100%;
         position: static;
+    }
+
+    .min-title {
+        padding-bottom: 2rem;
     }
 }
 
@@ -527,6 +554,25 @@ p.strong.big {
 /* #region faq */
 .faq {
     margin: 2rem 0;
+}
+
+.faq .column {
+    padding-left: 1rem;
+
+    h2 {
+        margin: 2rem 0;
+        font-size: xx-large;
+        text-align: left;
+    }
+
+    div {
+        padding: 2rem 0;
+    }
+}
+
+.faq .column span,
+.faq .column .fa-angle-up {
+    display: none;
 }
 
 /* #endregion faq */
