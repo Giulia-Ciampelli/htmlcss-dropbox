@@ -43,7 +43,7 @@ h1 {
     font-size: xxx-large;
 }
 
-h4 {
+h2 {
     font-weight: 700;
 }
 
@@ -223,7 +223,7 @@ div.col-8 {
 }
 
 .plans .container-small {
-    h4 {
+    h2 {
         margin: 2rem 0;
         font-size: xx-large;
         text-align: left;
@@ -263,7 +263,7 @@ div.col-8 {
         }
     }
 
-    h4 {
+    h2 {
         padding-top: 2rem;
     }
 
@@ -346,6 +346,12 @@ p.strong.big {
 /* #region operazioni */
 .operations {
     margin: 2rem 0;
+
+    h2 {
+        margin: 2rem 0;
+        font-size: xx-large;
+        text-align: left;
+    }
 }
 
 .operations .container-small .col-4 {
@@ -359,7 +365,17 @@ p.strong.big {
 
 /* #region clienti */
 .clients {
-    margin: 2rem 0;
+    padding: 1rem;
+
+    .row {
+        margin: 14rem 0;
+    }
+
+    h2 {
+        margin: 2rem 0;
+        font-size: xx-large;
+        text-align: left;
+    }
 }
 
 /* #endregion clienti */
