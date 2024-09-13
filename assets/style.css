@@ -227,14 +227,14 @@ div.col-8 {
         font-size: xx-large;
         text-align: left;
     }
-
+    
     .choice {
         padding: 3rem 0;
     }
-
+    
     .col-4 {
         display: flex;
-
+        
         .min-title, .strong {
             padding: 1rem 0;
         }
@@ -244,6 +244,63 @@ div.col-8 {
 .plans article {
     border: 1px solid lightgray;
     padding: 1rem;
+    
+    .card-top {
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .card-bottom {
+        padding: 1rem;
+    }
+    
+    span, a {
+        padding: 2rem 0;
+    }
+    
+    hr {
+        border: 1px solid lightgrey;
+        margin: 3rem 0 2rem;
+        width: 30%;
+    }
+    
+    ul {
+        padding: 2rem 0;
+        list-style: none;
+        
+        li {
+            line-height: 1.5rem;
+        }
+    }
+    
+    h2 {
+        padding-top: 2rem;
+    }
+    
+    ul:first-child {
+        li {
+            list-style: none;
+        }
+    }
+    
+    ul:last-child {
+        li {
+            list-style: none;
+        }
+    }
+    
+    .blue-button {
+        margin: 2rem 0;
+    }
+    
+    .check {
+        width: 10px;
+    }
+}
+
+#card {
+    border: 1px solid lightgray;
 
     .card-top {
         border-bottom: 1px solid lightgray;
@@ -252,76 +309,23 @@ div.col-8 {
     }
 
     .card-bottom {
-        padding: 1rem;
-    }
+        position: relative;
 
-    span, a {
-        padding: 2rem 0;
-    }
-
-    hr {
-        border: 1px solid lightgrey;
-        margin: 3rem 0 2rem;
-        width: 30%;
-    }
-
-    ul {
-        padding: 2rem 0;
-        list-style: none;
-
-        li {
-            line-height: 1.5rem;
+        .col-8 {
+        
+            p {
+                padding-bottom: 1rem;
+            }
         }
-    }
 
-    h2 {
-        padding-top: 2rem;
-    }
-
-    ul:first-child {
-        li {
-            list-style: none;
+        button {
+            position: absolute;
+            top: 4rem;
+            right: 2rem;
         }
-    }
-
-    ul:last-child {
-        li {
-            list-style: none;
-        }
-    }
-
-    .blue-button {
-        margin: 2rem 0;
-    }
-
-    .check {
-        width: 10px;
     }
 }
 
-.plans .col-12 {
-    border: 1px solid lightgray;
-    padding: 2rem;
-    
-    div {
-        padding: 2rem 0;
-        border-bottom: 1px solid lightgray;
-        text-align: center;
-    }
-
-    div:first-child {
-        padding-bottom: 1rem;
-        margin-top: -1rem;
-    }
-
-    p {
-        padding-bottom: 2rem;
-    }
-
-    .min-title {
-        padding: 2rem 0;
-    }
-}
 
 p.strong.big {
     padding-top: 2rem;
