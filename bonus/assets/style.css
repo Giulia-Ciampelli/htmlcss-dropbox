@@ -85,8 +85,23 @@
 
         /* #endregion clients */
 
-        /* #region partner */
-        
+        /* #region partner */       
+        .container-100 .row {
+
+            /* per qualche motivo non si può selezionare la classe "none-t" per i div "col-4" sottostanti */
+            
+            .col-4 {
+                width: 100%;
+            }
+
+            #none1 {
+                display: none;
+            }
+
+            #none2 {
+                display: none;
+            }
+        }
 
         /* #endregion partner */
 
