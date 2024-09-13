@@ -1,6 +1,4 @@
 /* #region common */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +81,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* CONTROLLA QUI, POTREBBE ESSERE AL CONTRARIO */
     margin: 0 -1rem;
 }
 
@@ -199,7 +196,6 @@ header div.flex:last-of-type {
 
 div.col-8 {
     img {
-        /* CONTROLLA */
         position: absolute;
         width: 60%;
     }
@@ -259,6 +255,10 @@ div.col-8 {
 
         li {
             line-height: 1.5rem;
+
+            .list {
+
+            }
         }
     }
 
