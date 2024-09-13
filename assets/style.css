@@ -119,6 +119,10 @@ h2 {
     font-size: large;
 }
 
+.gray {
+    color: gray;
+}
+
 .hover1:hover {
     border-bottom: 2px solid black;
 }
