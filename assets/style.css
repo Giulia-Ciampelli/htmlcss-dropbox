@@ -383,6 +383,7 @@ p.strong.big {
 
     .row {
         margin: 14rem 0;
+        flex-direction: column;
     }
 
     h2 {
