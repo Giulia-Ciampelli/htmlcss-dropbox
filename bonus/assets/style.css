@@ -1,7 +1,13 @@
 /* #region media query */
+
+/* #region tablet */
 @media screen and (max-width: 768px) {
     
     body {
+        
+        .none-t {
+            display: none;
+        }
 
         header {
             justify-content: space-evenly;
@@ -12,9 +18,6 @@
         }
 
         .jumbo {
-            h1 {
-                font-size: x-large;
-            }
             
             .col-4 {
                 width: 100%;
@@ -26,7 +29,15 @@
             }
         }
 
-        .plans {
+        .plans .container-small {
+            
+            h2 {
+                margin: 2rem 0;
+            }
+
+            .choice {
+                padding: 0 0 3rem;
+            }
 
             .tablet {
                 display: flex;
@@ -35,10 +46,6 @@
     
                 .col-4 {
                     width: 50%;
-    
-                    .none-t {
-                        display: none;
-                    }
                 }
     
                 .col-12 {
@@ -48,6 +55,8 @@
         }
     }
 }
+
+/* #endregion tablet */
 
 /* #endregion media query */
 
