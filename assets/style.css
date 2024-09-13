@@ -139,6 +139,8 @@ h2 {
     display: none;
 }
 
+/* #endregion common */
+
 /* #region header */
 header {
     justify-content: space-between;
@@ -241,13 +243,16 @@ div.col-8 {
 
 .plans article {
     border: 1px solid lightgray;
-    padding: 2rem;
+    padding: 1rem;
 
-    div:first-child {
+    .card-top {
         border-bottom: 1px solid lightgray;
         text-align: center;
         padding-bottom: 1rem;
-        margin-top: -1rem;
+    }
+
+    .card-bottom {
+        padding: 1rem;
     }
 
     span, a {
