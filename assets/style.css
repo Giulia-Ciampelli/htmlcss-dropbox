@@ -162,6 +162,13 @@ header div.flex:last-of-type {
     }
 }
 
+li.flex {
+    
+    :before {
+        margin-right: .5rem;
+    }
+}
+
 #move1 {
     margin-right: 1rem;
 }
