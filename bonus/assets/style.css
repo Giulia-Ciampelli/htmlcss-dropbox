@@ -78,6 +78,18 @@
 
         /* #endregion vbusiness plan */
 
+        /* #region clients */
+        .clients .row {
+            margin: 0;
+        }
+
+        /* #endregion clients */
+
+        /* #region partner */
+        
+
+        /* #endregion partner */
+
         /* #endregion main */
     }
 }
