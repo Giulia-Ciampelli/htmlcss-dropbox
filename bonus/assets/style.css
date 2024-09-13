@@ -1,3 +1,30 @@
+/* #region media query */
+@media screen and (max-width: 768px) {
+    
+    body {
+
+        .tablet {
+            display: flex;
+            flex-wrap: wrap;
+
+
+            .col-4 {
+                width: 50%;
+
+                .none {
+                    display: none;
+                }
+            }
+
+            .col-12 {
+                width: 50%;
+            }
+        }
+    }
+}
+
+/* #endregion media query */
+
 /* #region common */
 * {
     margin: 0;
@@ -25,10 +52,6 @@
     --freetrial-font: #610d27;
     --footer: #000000;
     --font-light: #ffffff;
-}
-
-body {
-    min-width: 1280px;
 }
 
 a.unstyled {
