@@ -5,10 +5,24 @@
     
     body {
         
+        /* #region common */
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .container-small {
+            width: 80%;
+            margin: auto;
+        }
+
         .none-t {
             display: none;
         }
 
+        /* #endregion common */
+
+        /* #region header */
         header {
             justify-content: space-evenly;
 
@@ -17,6 +31,11 @@
             }
         }
 
+        /* #endregion header */
+
+        /* #region main */
+
+        /* #region jumbotron */
         .jumbo {
             
             .col-4 {
@@ -29,6 +48,9 @@
             }
         }
 
+        /* #endregion jumbotron */
+
+        /* #region business plan */
         .plans .container-small {
             
             h2 {
@@ -53,6 +75,10 @@
                 }
             }
         }
+
+        /* #endregion vbusiness plan */
+
+        /* #endregion main */
     }
 }
 
